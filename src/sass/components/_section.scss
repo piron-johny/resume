@@ -1,5 +1,6 @@
 .project__title,
-.work__title {
+.work__title,
+.education__title {
   text-transform: uppercase;
   font-size: 12px;
   font-family: Belgrano;
@@ -45,8 +46,20 @@
 .work__date {
   margin-bottom: 4px;
 }
-.work__activities {
+.work__activities,
+.education__list {
   margin-bottom: 4px;
   list-style: circle;
   padding-left: 15px;
+}
+.education__subtitle {
+  font-weight: 600;
+  font-size: 8px;
+  margin-bottom: 4px;
+}
+.education__list {
+  list-style: circle;
+}
+.education__item {
+  font-size: 8px;
 }
