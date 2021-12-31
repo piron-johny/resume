@@ -1,14 +1,14 @@
 .item {
   &:not(:last-child) {
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
   }
 }
 .item__title {
   color: $bloksColorText;
   text-transform: uppercase;
-  font-size: 8px;
+  font-size: 0.8rem;
   font-weight: 400;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
   .languages & {
     text-transform: none;
   }
@@ -17,11 +17,11 @@
   }
 }
 .item__list {
-  font-size: 7px;
+  font-size: 0.7rem;
   list-style: circle;
-  padding-left: 15px;
+  padding-left: 1.5rem;
   & li {
     color: $headerBg;
-    margin-bottom: 2px;
+    margin-bottom: 0.2rem;
   }
 }

@@ -1,3 +1,8 @@
+html {
+  @media print {
+    font-size: 12px;
+  }
+}
 body {
   display: flex;
   justify-content: center;
@@ -10,23 +15,23 @@ span {
   line-height: 0;
 }
 .page {
-  width: 620px;
+  width: 62rem;
   background: #eff9f2;
-  padding: 15px 0 15px 0px;
+  padding: 1.5rem 0 1.5rem 0px;
   position: relative;
   display: flex;
   flex-direction: column;
 }
 
 .subtitle {
-  font-size: 12px;
+  font-size: 1.2rem;
   font-family: Belgrano;
   text-transform: uppercase;
   font-weight: inherit;
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
 }
 
 .contacts-text {
-  font-size: 8px;
+  font-size: 0.8rem;
   color: #000;
 }

@@ -1,12 +1,12 @@
 .footer {
   margin-top: auto;
   background: $headerBg;
-  height: 20px;
+  height: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   & p {
-    font-size: 8px;
+    font-size: 0.8rem;
   }
   @media print {
     background: #000;
