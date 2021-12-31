@@ -1,6 +1,7 @@
 .project__title,
 .work__title,
-.education__title {
+.education__title,
+.additional__title {
   text-transform: uppercase;
   font-size: 12px;
   font-family: Belgrano;
@@ -47,19 +48,26 @@
   margin-bottom: 4px;
 }
 .work__activities,
-.education__list {
+.education__list,
+.additional__list {
   margin-bottom: 4px;
   list-style: circle;
   padding-left: 15px;
 }
-.education__subtitle {
+.education__subtitle,
+.additional__subtitle {
   font-weight: 600;
   font-size: 8px;
   margin-bottom: 4px;
 }
-.education__list {
+.education__list,
+.additional__list {
   list-style: circle;
 }
-.education__item {
+.education__item,
+.additional__item {
   font-size: 8px;
+}
+.additional {
+  margin-bottom: 76px;
 }
