@@ -1,0 +1,52 @@
+.project__title,
+.work__title {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: Belgrano;
+  font-weight: inherit;
+  margin-bottom: 7px;
+}
+.project__subtitle,
+.work__subtitle {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 8px;
+  color: $primaryColor;
+  margin-bottom: 3px;
+  & a {
+    color: inherit;
+    margin-right: 15px;
+  }
+}
+.work__subtitle {
+  margin-right: 15px;
+}
+.project__list {
+  & > li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+.project__technology,
+.work__technology {
+  font-size: 8px;
+  color: $headerBg;
+  font-weight: 400;
+}
+.project__description,
+.work__description {
+  font-size: 8px;
+  padding-left: 7px;
+  letter-spacing: 0.5px;
+}
+.project__link {
+  color: $headerBg;
+  text-decoration: none;
+}
+.work__date {
+  margin-bottom: 4px;
+}
+.work__activities {
+  margin-bottom: 4px;
+  list-style: circle;
+  padding-left: 15px;
+}

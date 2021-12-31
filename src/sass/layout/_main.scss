@@ -1,0 +1,11 @@
+.content {
+  width: 65%;
+  display: flex;
+  margin-left: auto;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  & section:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}

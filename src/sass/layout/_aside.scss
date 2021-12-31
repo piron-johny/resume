@@ -1,0 +1,21 @@
+.aside {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  width: 28%;
+  height: 100%;
+  background: $asideBg;
+  padding: 15px;
+  & div:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.aside__img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  background: $headerBg;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}

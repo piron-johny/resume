@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  margin-bottom: 20px;
+}
+.header__bg {
+  flex: 30%;
+  background: $headerBg;
+}
+.header__content {
+  padding: 20px 0 10px 10px;
+  flex: 70%;
+  background: $headerBg;
+}
+.header__name {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-family: Belgrano;
+  letter-spacing: 2px;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+.header__post {
+  font-size: 15px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $secondaryColor;
+  margin-bottom: 10px;
+}

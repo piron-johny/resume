@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: OpenSons, sans-serif;
+  font-weight: 400;
+}
+
+span {
+  line-height: 0;
+}
+.page {
+  width: 620px;
+  background: #eff9f2;
+  padding: 15px 0 15px 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-family: Belgrano;
+  text-transform: uppercase;
+  font-weight: inherit;
+  margin-bottom: 8px;
+}
+
+.contacts-text {
+  font-size: 8px;
+  color: #000;
+}
